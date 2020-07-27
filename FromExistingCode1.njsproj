@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30ae125b-aadc-4a66-9466-07b1f9a005c0}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>server.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="bower.json" />
+    <Content Include="config.json" />
+    <Content Include="logs.json" />
+    <Content Include="package.json" />
+    <Content Include="CONTRIBUTING.md" />
+    <Content Include="LICENSE.md" />
+    <Content Include="README.md" />
+    <Content Include="Gruntfile.js" />
+    <Content Include="npm-test.js" />
+    <Content Include="server.js" />
+    <Content Include="admin\index.html" />
+    <Content Include="admin\admin-ui.js" />
+    <Content Include="demos\audio-conferencing.html" />
+    <Content Include="demos\call-by-username.html" />
+    <Content Include="demos\camera-zoom.html" />
+    <Content Include="demos\file-sharing.html" />
+    <Content Include="demos\getStats.html" />
+    <Content Include="demos\index.html" />
+    <Content Include="demos\one-to-one.html" />
+    <Content Include="demos\Scalable-Broadcast.html" />
+    <Content Include="demos\screen-sharing.html" />
+    <Content Include="demos\SSEConnection.html" />
+    <Content Include="demos\text-chat-file-sharing.html" />
+    <Content Include="demos\translate-text-chat.html" />
+    <Content Include="demos\video-and-screen-sharing.html" />
+    <Content Include="demos\video-broadcasting.html" />
+    <Content Include="demos\video-conferencing-chat-filesharing.html" />
+    <Content Include="demos\video-conferencing.html" />
+    <Content Include="demos\vuejs-video-conferencing.html" />
+    <Content Include="demos\stylesheet.css" />
+    <Content Include="demos\logo.png" />
+    <Content Include="demos\menu-icon.png" />
+    <Content Include="demos\favicon.ico" />
+    <Content Include="demos\README.md" />
+    <Content Include="demos\menu.js" />
+    <Content Include="dev\getHTMLMediaElement.css" />
+    <Content Include="dev\README.md" />
+    <Content Include="dev\amd.js" />
+    <Content Include="dev\BandwidthHandler.js" />
+    <Content Include="dev\BluetoothConnection.js" />
+    <Content Include="dev\CodecsHandler.js" />
+    <Content Include="dev\enableV2Api.js" />
+    <Content Include="dev\FileProgressBarHandler.js" />
+    <Content Include="dev\FileSelector.js" />
+    <Content Include="dev\FirebaseConnection.js" />
+    <Content Include="dev\getHTMLMediaElement.js" />
+    <Content Include="dev\getUserMedia.js" />
+    <Content Include="dev\globals.js" />
+    <Content Include="dev\gumadapter.js" />
+    <Content Include="dev\head.js" />
+    <Content Include="dev\IceServersHandler.js" />
+    <Content Include="dev\ios-hacks.js" />
+    <Content Include="dev\MediaStreamRecorder.js" />
+    <Content Include="dev\MultiPeersHandler.js" />
+    <Content Include="dev\MultiStreamsMixer.js" />
+    <Content Include="dev\OnIceCandidateHandler.js" />
+    <Content Include="dev\Plugin.EveryWhere.js" />
+    <Content Include="dev\PubNubConnection.js" />
+    <Content Include="dev\RecordingHandler.js" />
+    <Content Include="dev\RTCMultiConnection.js" />
+    <Content Include="dev\RTCPeerConnection.js" />
+    <Content Include="dev\SignalRConnection.js" />
+    <Content Include="dev\SipConnection.js" />
+    <Content Include="dev\SocketConnection.js" />
+    <Content Include="dev\SSEConnection.js" />
+    <Content Include="dev\StreamHasData.js" />
+    <Content Include="dev\StreamsHandler.js" />
+    <Content Include="dev\tail.js" />
+    <Content Include="dev\TextSenderReceiver.js" />
+    <Content Include="dev\TranslationHandler.js" />
+    <Content Include="dev\WebSocketConnection.js" />
+    <Content Include="dev\WebSyncConnection.js" />
+    <Content Include="dev\XHRConnection.js" />
+    <Content Include="dist\README.md" />
+    <Content Include="dist\RTCMultiConnection.js" />
+    <Content Include="dist\RTCMultiConnection.min.js" />
+    <Content Include="docs\api.md" />
+    <Content Include="docs\getting-started.md" />
+    <Content Include="docs\how-to-use.md" />
+    <Content Include="docs\installation-guide.md" />
+    <Content Include="docs\ios-android.md" />
+    <Content Include="docs\README.md" />
+    <Content Include="docs\tips-tricks.md" />
+    <Content Include="docs\upgrade.md" />
+    <Content Include="demos\css\bootstrap.min.css" />
+    <Content Include="demos\css\emojionearea.min.css" />
+    <Content Include="demos\dashboard\canvas-designer-old.html" />
+    <Content Include="demos\dashboard\canvas-designer.html" />
+    <Content Include="demos\dashboard\index-old.html" />
+    <Content Include="demos\dashboard\index.html" />
+    <Content Include="demos\js\bootstrap.min.js" />
+    <Content Include="demos\js\emojionearea.min.js" />
+    <Content Include="demos\js\jquery-3.3.1.slim.min.js" />
+    <Content Include="demos\js\jquery.min.js" />
+    <Content Include="demos\js\popper.min.js" />
+    <Content Include="demos\SSEConnection\README.md" />
+    <Content Include="demos\video-conference\index.html" />
+    <Content Include="demos\video-conference\video-conference.html" />
+    <Content Include="demos\SSEConnection\rooms\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="admin" />
+    <Folder Include="demos" />
+    <Folder Include="demos\css" />
+    <Folder Include="demos\dashboard" />
+    <Folder Include="demos\js" />
+    <Folder Include="demos\SSEConnection" />
+    <Folder Include="demos\SSEConnection\rooms" />
+    <Folder Include="demos\video-conference" />
+    <Folder Include="dev" />
+    <Folder Include="dist" />
+    <Folder Include="docs" />
+    <Folder Include="fake-keys" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
